@@ -1,0 +1,25 @@
+<!--pages/details/details.wxml-->
+
+<!-- 头部 -->
+<view class="header">
+  <view class="header-imgbox">
+    <image src="{{details.pic}}" class="img" mode="aspectFit"></image>
+  </view>
+  <view class=" header-title">
+    <text class='title-txt'>{{details.name}}</text>
+  </view>
+  <text class='header-m'>{{details.cookingtime}}</text>
+  <text class='header-desp'>{{details.content}}</text>
+</view>
+
+
+<!-- 主体 -->
+<view class="section">
+  <view class="section-title">
+    <text class='title-txt'>具体操作</text>
+  </view>
+  <view wx:for="{{details.process}}" wx:key="{{index}}" class="section-step">
+    <text class='step-txt'>{{item.pcontent}}</text>
+    <image src="{{item.pic}}" mode="aspectFit"></image>
+  </view>
+</view>

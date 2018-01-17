@@ -1,0 +1,88 @@
+/* pages/details/details.wxss */
+.header {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.header .header-title {
+  position: absolute;
+  top: 200px;
+  left: 115px;
+  z-index: 1;
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  border: 1mm solid white;
+  background-color: rgb(255, 215, 0);
+  box-shadow: 2px 2px 3px gainsboro; 
+  text-align: center;
+}
+
+.header-title .title-txt { 
+  font-family: '隶书';
+  font-size: 1.1em;
+  line-height: 110px;
+}
+
+.header-m {
+  font-size: 0.6em;
+  font-family: "仿宋";
+  z-index: 2;
+  margin-top: 20px;
+}
+.header-desp {
+  padding:24px 18px 18px;
+  margin-top: 10px;
+  font-size: 0.8em;
+  line-height: 25px;
+  align-self: center;
+  border: 1px dashed rgba(255, 215, 0, 0.5);
+  background-color: rgba(200, 200, 200, 0.1); 
+}
+
+.header .header-imgbox {
+  display: flex;
+}
+
+.header-imgbox .img {
+  border-radius: 20px;
+}
+
+/* 主体部分 */
+.section {
+  margin: 15px 28px;
+  padding: 10px;
+  font-size: 0.8em;
+  line-height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px dashed rgba(255, 215, 0, 0.5);
+  position: relative;
+}
+
+.section-title {
+  position: absolute;
+  top: -20px;
+  left: 5%;
+  z-index: 1;
+  padding: 5px 20px;
+  justify-content: flex-start;
+  background-color: rgba(255, 215, 0, 0.8);
+}
+.section-title .title-txt {
+  letter-spacing: 8px;
+}
+.section-step{ 
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.step-txt{   
+  padding: 20px;
+}
+

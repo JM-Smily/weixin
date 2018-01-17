@@ -1,0 +1,101 @@
+ /* 全局样式 */
+ .bg-y{
+   border:.5mm dashed #d4874b; 
+ }
+ .bg-red{
+   background-color: #e8b99c;
+ }
+ .bg-eg{
+    background-color:#ecbd7b;
+ }
+ .bg-b{
+   border:.5mm dashed #ee9900;
+ }
+ /* 从头开始 */
+ .header{
+  height: 555px; 
+  background-color: rgba(255, 160, 122,.2);
+}
+.header .h-imgbox{   
+ display: flex;
+ justify-content: space-around;
+}
+swiper{
+  height: 600rpx;
+}
+.h-imgbox .imgbox-img{  
+  margin-top:30px;
+  align-self: center;  
+}
+
+/* 主体内容 */
+.section{
+  display: flex;
+  justify-content: center;  
+}
+.s-txtbox{
+  margin-top: 15px;
+  position: relative;
+}
+/* 搜索图标 */
+.s-img-ser{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 77px;
+  left: 275px;
+  z-index: 2;
+}
+/* 小日子标题 */
+.s-txtbox .s-title{
+  letter-spacing: 8px;
+  font-family: "隶书";
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;  
+}
+.s-txtbox .imgbox-h1{ 
+  padding:15px 8px; 
+  display: flex;
+  justify-content: center;
+  font-family: "仿宋";
+  font-size:.6em;
+  letter-spacing: 2px;
+  font-weight: bold; 
+  color:gray; 
+} 
+/* 输入框 */
+.s-txtbox .s-search{  
+  width:300px;
+  border: .3mm solid rgba(222, 222, 222,.9);
+  border-radius: 30px;
+  margin-left: 10px;
+  font-size:.6em; 
+  text-align: center;
+}
+/* 输入框 提示文字 */
+.phcolor{
+font-size: 1em;  
+ text-align: center;
+ letter-spacing: 5px;
+}
+
+/* 底部 */
+.footer{
+  margin: 15px 20px;  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* 标签样式 */
+.f-label{
+    margin-top:15px;   
+  padding:3px 15px;
+  font-size:.9em;
+  color: white;
+  text-align: center;  
+  display: flex;
+  justify-content: flex-start;
+
+}

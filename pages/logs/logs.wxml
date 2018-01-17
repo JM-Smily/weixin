@@ -1,0 +1,32 @@
+<!--logs.wxml-->
+<!-- 头部 -->
+<view class='header'>
+  <view class='h-imgbox'>
+    <image src="../../images/index/1.png" mode="aspecFill" class='imgbox-img'></image>
+  </view>
+
+  <!-- 主体内容 -->
+  <view class='section'>
+    <view class='s-txtbox'>
+      <text class="s-title">-小日子-</text>
+      <text class='imgbox-h1'>那些和吃有关的小事\都是吃货们最在乎的事儿</text>
+      <input type='text' placeholder-class="phcolor" placeholder='挑战你的味蕾' name="search" id="search" class='s-search' bindinput="confirm"></input>
+      <navigator url="../search/search?title={{inputvalue}}">
+        <image src="../../images/icon/search.png" mode="aspecFit" class='s-img-ser'></image>
+      </navigator>
+    </view>
+  </view>
+
+  <!-- 底部 -->
+  <view  class="footer">
+  <view wx:for="{{classname}}" wx:key="index">
+  <navigator url="../search/search?title={{item}}">   
+    <label class='f-label bg-eg' hover-class='bg-red'>
+    {{item}}
+    </label>
+    </navigator>
+  </view>
+    
+   
+  </view>
+</view>

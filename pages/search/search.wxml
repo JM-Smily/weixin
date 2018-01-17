@@ -1,0 +1,17 @@
+<!--pages/search/search.wxml-->
+<!-- 主体内容 -->
+<view>
+
+  <!--2、 素食推荐 -->
+  <view class='newest'>
+    <!-- 2.1 标题 -->
+    <text class='title'>---{{str}} ---</text>
+    <!-- 2.2 内容 -->
+    <view wx:for='{{search}}' wx:key="index" class='imgbox'>
+      <navigator class="nav" url="../details/details?id={{item.id}}&name={{item.name}}">
+        <image src="{{item.pic}}" class="img" mode="aspectFit" />
+        <text class='text'>{{item.name}}</text>
+      </navigator>
+    </view>
+  </view>
+</view>

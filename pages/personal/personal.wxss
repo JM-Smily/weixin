@@ -1,0 +1,172 @@
+/* pages/personal/personal.wxss */
+
+/* 全局样式 */
+
+.bg-y {
+  border: 0.5mm dashed #d4874b;
+}
+
+.bg-red {
+  border: 0.5mm dashed #e8b99c;
+}
+
+.bg-eg {
+  border: 0.5mm dashed #ecbd7b;
+}
+
+.bg-b {
+  border: 0.5mm dashed #e90;
+}
+
+/* 从头开始 */
+
+.header {
+  height: 555px;
+}
+
+.header .h-imgbox {
+  height: 210px;
+  position: relative;
+}
+
+.h-imgbox .imgbox-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 555px;
+  width: 100%;
+  opacity: 0.1;
+}
+
+.imgbox-txt {
+  position: relative;
+}
+
+/* 用户头像 */
+
+.imgbox-txt .txt-img {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  z-index: 3;
+  padding: 3px;
+  width: 120px;
+  height: 120px;
+  border-radius: 123px;
+  border: 1mm solid #e8b99c;
+}
+
+/* 用户名 */
+
+.imgbox-txt .txt-title {
+  position: absolute;
+  top: 60px;
+  left: 180px;
+  z-index: 3;
+  font-family: "隶书";
+  font-size: 1.5em;
+  letter-spacing: 5px;
+}
+
+/* 用户描述 */
+
+.imgbox-txt .txt-des {
+  position: absolute;
+  top: 96px;
+  left: 175px;
+  z-index: 3;
+  font-family: "仿宋";
+  font-size: 0.6em;
+  color: gray;
+}
+
+/* 用户社交 */
+
+.imgbox-txt  .h-detail {
+  position: absolute;
+  top: 150px;
+  left: 175px;
+  z-index: 3;
+  font-family: "仿宋";
+  font-size: 0.8em;
+  color: goldenrod;
+  letter-spacing: 5px;
+}
+
+.imgbox-txt  .h-detail2 {
+  position: absolute;
+  top: 178px;
+  left: 175px;
+  z-index: 3;
+  font-size: 0.8em;
+  color: goldenrod;
+  word-spacing: 66px;
+}
+
+/* 主体内容 */
+
+.newest {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px gainsboro;
+  padding-bottom: 10px;
+}
+
+.newest .imgbox {
+  width: 43%;
+  height: 350rpx;
+  margin-top: 10px;
+  padding: 0 8px 10px 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: rgba(255, 160, 122, 0.1);
+}
+
+.newest .s-txtbox {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* 小日子标题 */
+
+.s-txtbox .s-title {
+  letter-spacing: 8px;
+  font-family: "隶书";
+  font-size: 1.5em;
+  display: flex;
+  color: goldenrod;
+  justify-content: center;
+}
+
+.imgbox .nav {
+  width: 100%;
+  padding: 10px 3px;
+}
+
+.nav .img {
+  display: flex;
+  align-self: center;
+  width: 100%;
+}
+
+.nav .text {
+  position: absolute;
+  bottom: 3px;
+  z-index: 1;
+  font-size: 0.6em;
+}
+
+/* 底部 */
+
+.footer {
+  margin: 15px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

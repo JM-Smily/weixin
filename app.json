@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/personal/personal",    
+    "pages/index/index",
+    "pages/details/details",
+    "pages/search/search"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA07A",
+    "navigationBarTitleText": "小日子",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "white",
+    "selectedColor": "#f4ea2a",
+    "backgroundColor": "#FFA07A",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/icon/faxian_1.png",
+        "selectedIconPath": "images/icon/faxian_1_y.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon/tuijian_1.png",
+        "selectedIconPath": "images/icon/tuijian_1_y.png",
+        "text": "发现"
+      },     
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "images/icon/me_1.png",
+        "selectedIconPath": "images/icon/me_1_y.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
